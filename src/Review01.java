@@ -3,6 +3,7 @@ public class Review01 {
 
     public static void main(String[] args) {
 
+        //価格
         int price = 1500;
 
         double tax_rate = 0.1;
