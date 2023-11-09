@@ -15,7 +15,7 @@ public class Review01 {
 
     }
 
-    //taxメソッj
+    //taxメソッド
     public static int tax(int price,double tax_rate) {
         int result = ((int)(price * tax_rate));
         return result;
