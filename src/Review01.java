@@ -3,12 +3,11 @@ public class Review01 {
 
     public static void main(String[] args) {
 
-        //価格
-        int price = 1500;
+        int price = 1500; //価格
 
-        double tax_rate = 0.1;
+        double tax_rate = 0.1; //税率
 
-        int tax = taxCalc(price,tax_rate);
+        int tax = tax(price,tax_rate); //税額計算
 
         int total = price + tax;
 
@@ -17,7 +16,7 @@ public class Review01 {
     }
 
     //taxメソッド
-    public static int taxCalc(int price,double tax_rate) {
+    public static int tax(int price,double tax_rate) {
         int result = ((int)(price * tax_rate));
         return result;
     }
